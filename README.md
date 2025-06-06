@@ -11,15 +11,20 @@
 ![1](7(1).png)
 
 ### 2.	Исходный код  
-Программа на языке C:  
+```c
 #include <stdio.h>
+
 int square(int x) { 
- return x * x;
+    return x * x;
 }
+
 int main() {
- int a = 5;
- int b = square(a); printf("%d\n", b); return 0;
-}  
+    int a = 5;
+    int b = square(a);
+    printf("%d\n", b);
+    return 0;
+}
+```
 Сохранена в файл main.c.  
 
 ![2](7(2).png)
